@@ -179,6 +179,14 @@ ol {
   margin: 0 0 var(--space-xs);
 }
 
+.eyebrow img {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: 40px;
+  margin-right: 0.625rem;
+}
+
 .section__lead {
   font-size: 1.125rem;
   color: var(--text-muted);
