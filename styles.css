@@ -503,7 +503,17 @@ ol {
 }
 
 .node-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 0.35rem;
+}
+
+.node-card__title-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .node-card p {
