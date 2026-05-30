@@ -493,7 +493,7 @@ ol {
   color: var(--text-on-teal);
 }
 
-.node-card--hub h3,
+.node-card--hub .node-card__title,
 .node-card--hub p {
   color: inherit;
 }
@@ -502,7 +502,7 @@ ol {
   opacity: 0.9;
 }
 
-.node-card h3 {
+.node-card__title {
   display: flex;
   align-items: center;
   gap: 12px;
